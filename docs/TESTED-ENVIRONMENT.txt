@@ -1,0 +1,17 @@
+Skylinee 0.6.0 validation environment
+Python 3.12.14
+Platform Linux x86_64
+
+fastapi==0.143.2
+starlette==1.8.0
+httpx==0.28.1
+pydantic==2.13.5
+pydantic-settings==2.16.0
+uvicorn==0.54.0
+beautifulsoup4==4.15.0
+pytest==9.1.1
+pytest-asyncio==1.4.0
+hatchling==1.32.4
+build==1.6.1
+
+This is a validation snapshot, not a full dependency lockfile.

@@ -1,0 +1,23 @@
+services:
+  skylinee-harness:
+    build: .
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      SKYLINEE_DATA_DIR: /data
+      SKYLINEE_WORKSPACE_DIR: /workspace
+      SKYLINEE_AUDIT_LOG_PATH: /data/audit.jsonl
+    ports:
+      - "127.0.0.1:8000:8000"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - skylinee-data:/data
+      - skylinee-workspace:/workspace
+    security_opt:
+      - no-new-privileges:true
+    cap_drop:
+      - ALL
+volumes:
+  skylinee-data:
+  skylinee-workspace:
