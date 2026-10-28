@@ -1,0 +1,40 @@
+name: Skylinee Agent Harness CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+          cache-dependency-path: pyproject.toml
+      - name: Install app and test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e '.[dev]' ruff build
+      - name: Lint critical Python rules
+        run: ruff check --select E4,E7,E9,F,I .
+      - name: Compile sources
+        run: python -m compileall -q src/skylinee_harness
+      - name: Run automated regression suite
+        run: python -m pytest -q
+      - name: Check dashboard JavaScript
+        run: node --check src/skylinee_harness/static/app.js
+      - name: Test HTTP and CLI agent workflows
+        run: python scripts/smoke_http.py
+      - name: Build source and wheel packages
+        run: python -m build
