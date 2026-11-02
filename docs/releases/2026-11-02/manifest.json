@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-02",
+  "screenshots": [
+    {
+      "source_filename": "image(20261102-135832).png",
+      "source_sha256": "f6d05fdd71462742d4375b0eb20fed2b3e89a41c6b3c0833ac999c2cae07a3c3",
+      "published_path": "images/powershell-web-stream.png",
+      "published_sha256": "4373d6f4ce2bea78024202a1f56b96a1d13b18df09fc4c082a0149ece7eb1291",
+      "crop_box_xyxy": [
+        163,
+        153,
+        1510,
+        919
+      ],
+      "border_pixels": 4,
+      "border_color": "#22d3ee",
+      "dimensions": [
+        1355,
+        774
+      ],
+      "verification": "Every interior pixel matches the source crop; no resizing or generated text."
+    },
+    {
+      "source_filename": "image(20261102-142613).png",
+      "source_sha256": "57d1af9a710912fa47db2dee3afe7bc8eaf881a643717e1a3401897753054741",
+      "published_path": "images/putty-pi-health.png",
+      "published_sha256": "c2f5a67b9276d7f03e62763a54ec5e1f7dc8e4d5852d686d54ac4187e7b6316c",
+      "crop_box_xyxy": [
+        48,
+        38,
+        1038,
+        615
+      ],
+      "border_pixels": 4,
+      "border_color": "#a78bfa",
+      "dimensions": [
+        998,
+        585
+      ],
+      "verification": "Every interior pixel matches the source crop; no resizing or generated text."
+    },
+    {
+      "source_filename": "image(20261102-143221).png",
+      "source_sha256": "ff46ad8d27645ed94105172b0c36277d3aef069e56d7f9291fc8bfd9fd19cb29",
+      "published_path": "images/putty-server-health.png",
+      "published_sha256": "96670ec125c9fc199ad4c3a3dd32d279fdba6ecdf3c056efa0a71e2b8f5f1861",
+      "crop_box_xyxy": [
+        200,
+        190,
+        1190,
+        767
+      ],
+      "border_pixels": 4,
+      "border_color": "#34d399",
+      "dimensions": [
+        998,
+        585
+      ],
+      "verification": "Every interior pixel matches the source crop; no resizing or generated text."
+    }
+  ]
+}
