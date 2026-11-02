@@ -57,6 +57,34 @@
         585
       ],
       "verification": "Every interior pixel matches the source crop; no resizing or generated text."
+    },
+    {
+      "source_filename": "image(20261102-132320).png",
+      "published_path": "images/webui-udc-web-search.png",
+      "source_sha256": "76d8176b3032bc02b1cd86ec03f73316009c383f34a4a832257669b831ec700d",
+      "published_sha256": "76d8176b3032bc02b1cd86ec03f73316009c383f34a4a832257669b831ec700d",
+      "verification": "Original uploaded PNG, unchanged."
+    },
+    {
+      "source_filename": "image(20261102-143358).png",
+      "published_path": "images/webui-hopkins-and-name.png",
+      "source_sha256": "68a96ba45ae66649ff9ccecc6cba863c842599c755e296b794103fae02a3b69e",
+      "published_sha256": "68a96ba45ae66649ff9ccecc6cba863c842599c755e296b794103fae02a3b69e",
+      "verification": "Original uploaded PNG, unchanged."
+    },
+    {
+      "source_filename": "image(20261102-143409).png",
+      "published_path": "images/webui-name-followup.png",
+      "source_sha256": "2f7bb3b642a96487ee56bd75d9aa2c0c868d7ce22bd59b45cdfd2bd9e3f99023",
+      "published_sha256": "2f7bb3b642a96487ee56bd75d9aa2c0c868d7ce22bd59b45cdfd2bd9e3f99023",
+      "verification": "Original uploaded PNG, unchanged."
+    },
+    {
+      "source_filename": "image(20261102-143418).png",
+      "published_path": "images/webui-name-explanation.png",
+      "source_sha256": "d10033d830363dac7d3e98ba6f0a61f8674a75f9ce7fe7fbd963926eebf6852e",
+      "published_sha256": "d10033d830363dac7d3e98ba6f0a61f8674a75f9ce7fe7fbd963926eebf6852e",
+      "verification": "Original uploaded PNG, unchanged."
     }
   ]
 }

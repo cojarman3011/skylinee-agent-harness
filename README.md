@@ -6,6 +6,20 @@
 
 > **Live deployment evidence (November 2, 2026):** [Terminal screenshots and verification results](docs/releases/2026-11-02/README.md). These captures document the separate deployed Hermes bridge reporting version 0.3.4; the source release documented below remains 0.6.0.
 
+## Open WebUI conversations
+
+Uploaded screenshots of Open WebUI with `skylinee-agent` selected.
+
+### Web search — UDC news
+
+![Open WebUI UDC web search response](docs/releases/2026-11-02/images/webui-udc-web-search.png)
+
+### Web search and assistant naming — Johns Hopkins conversation
+
+![Open WebUI Johns Hopkins search and name response](docs/releases/2026-11-02/images/webui-hopkins-and-name.png)
+
+[Full conversation screenshots and provenance](docs/releases/2026-11-02/README.md#open-webui-conversations).
+
 ## Live deployment screenshots
 
 ### PowerShell — web streaming verification

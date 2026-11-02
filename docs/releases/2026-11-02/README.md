@@ -26,5 +26,27 @@ These are evidence assets, not a source-code upgrade or a new deployment. The re
 
 Health responses do not establish every route, tool, skill, or model identity. Separate WebUI captures in the operator's original archive show inconsistent assistant naming; identity stability remains unresolved. The cause of the earlier WebUI 500 response is not established by these health checks.
 
-[manifest.json](manifest.json) records source filenames, crop coordinates, dimensions and SHA-256 hashes. The full desktop originals remain in the operator's preserved screenshot collection; only the terminal crops are published here.
+[manifest.json](manifest.json) records source filenames, crop coordinates, dimensions and SHA-256 hashes. The full desktop originals remain in the operator's preserved screenshot collection; terminal crops and the WebUI originals below are published here.
 
+
+## Open WebUI conversations
+
+These four operator-uploaded screenshots are preserved unchanged. They show `skylinee-agent` selected in Open WebUI, including web-search responses and the subsequent identity exchange. The screenshots record displayed behavior; they do not independently verify the external news claims or prove that every request follows a particular internal execution route.
+
+### UDC web-search response
+
+![UDC news response in Open WebUI](images/webui-udc-web-search.png)
+
+### Johns Hopkins search and name response
+
+![Johns Hopkins response and name in Open WebUI](images/webui-hopkins-and-name.png)
+
+### Name follow-up
+
+![Assistant name follow-up in Open WebUI](images/webui-name-followup.png)
+
+### Name explanation
+
+![Assistant name explanation in Open WebUI](images/webui-name-explanation.png)
+
+The displayed assistant first calls itself “Inky,” then says it does not have a specific name. These images retain that observed inconsistency rather than presenting identity stability as resolved.
