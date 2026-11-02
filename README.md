@@ -6,6 +6,10 @@
 
 > **Live deployment evidence (November 2, 2026):** [Terminal screenshots and verification results](docs/releases/2026-11-02/README.md). These captures document the separate deployed Hermes bridge reporting version 0.3.4; the source release documented below remains 0.6.0.
 
+## Vision skill — `/vision`
+
+The [Vision skill integration](integrations/hermes/README.md) connects the deployed native Hermes bridge to [Skylinee Vision AI](https://github.com/cojarman3011/skylinee-vision-ai) for object detection, bounding boxes and close-up crops. Includes an API helper, bridge dispatcher, installer and 10 passing integration tests. **Published integration; runtime installation and live inference verification are still required.**
+
 ## Open WebUI conversations
 
 Uploaded screenshots of Open WebUI with `skylinee-agent` selected.
