@@ -3,13 +3,13 @@ import argparse
 import json
 import mimetypes
 import os
-from pathlib import Path
 import re
 import sys
+import uuid
+from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlsplit
 from urllib.request import HTTPRedirectHandler, ProxyHandler, Request, build_opener
-import uuid
 
 MAX_UPLOAD = 15 * 1024 * 1024
 MAX_RESPONSE = 1024 * 1024

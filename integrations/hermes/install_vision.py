@@ -1,9 +1,9 @@
 """Install /vision files only; never restart or recreate a service."""
 import argparse
 import ast
+import shutil
 from datetime import datetime, timezone
 from pathlib import Path
-import shutil
 
 
 def main():

@@ -1,9 +1,9 @@
 import importlib.util
 import json
-from pathlib import Path
 import tempfile
 import unittest
-from unittest.mock import patch, MagicMock
+from pathlib import Path
+from unittest.mock import MagicMock, patch
 
 ROOT = Path(__file__).resolve().parents[1]
 

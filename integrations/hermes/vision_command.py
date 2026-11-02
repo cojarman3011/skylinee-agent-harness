@@ -1,6 +1,6 @@
 """Recognize /vision in the OpenAI bridge; retain native Hermes tool authority."""
-from copy import deepcopy
 import re
+from copy import deepcopy
 
 COMMAND = re.compile(r'^/vision(?:\s|$)', re.IGNORECASE)
 INSTRUCTION = (
