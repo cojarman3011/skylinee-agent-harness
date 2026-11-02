@@ -1,5 +1,9 @@
 # Skylinee Agent Harness 0.6.0
 
+**A local-first Python AI agent framework for Ollama, model routing, web search, persistent memory, reusable skills and human-approved automation.**
+
+[Live terminal screenshots](docs/releases/2026-11-02/README.md) · [Validation](docs/VALIDATION.md) · [Operations](docs/OPERATIONS.md) · [Apache 2.0 license](LICENSE)
+
 > **Live deployment evidence (November 2, 2026):** [Terminal screenshots and verification results](docs/releases/2026-11-02/README.md). These captures document the separate deployed Hermes bridge reporting version 0.3.4; the source release documented below remains 0.6.0.
 
 Skylinee now runs an actual agent loop against Ollama: it can read evidence, call tools, request approval for changes, use saved memories and procedures, and perform scheduled work. It includes a browser dashboard, CLI, SQLite persistence, and an OpenAI-compatible connection for Open WebUI.
@@ -164,4 +168,3 @@ python -m build --no-isolation
 See [VALIDATION.md](docs/VALIDATION.md) for the checks actually run, [HERMES-COMPARISON.md](docs/HERMES-COMPARISON.md) for scope, and [OPERATIONS.md](docs/OPERATIONS.md) for persistence and recovery. The API reference is served at `/docs`; all agent API operations require the bearer key.
 
 This release has been tested locally against a deterministic Ollama-shaped backend. It has not been installed on Corey's machine, benchmarked on a Raspberry Pi, or validated against a live Ollama model. Docker configuration is supplied, but building and running the container requires Docker, which was unavailable in the build environment. Reachable Ollama, an installed tool-capable model, and a successful model check are the remaining deployment requirements.
-
